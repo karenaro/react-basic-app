@@ -1,17 +1,23 @@
 import React from 'react';
 import './ProductCategoryRow.css';
 
-
-const ProductCategoryRow = () => {
+export function Sporting() {
     return (
-        <div className="Product-Category-Row">
-            <div className="turquesa">
-                <label>Sporting</label>    
-                <label>Goods</label> 
-            </div>
+        <div className="turquesa">
+            <label>Sporting Goods</label> 
+                    
+        </div>
+    );
+    
+}
+
+export function Electronics() {
+    return (
+        <div className="Product-Category-Row">            
               
             <div className="turquesa">
-                <label>Electronics</label>     
+                <label>Electronics</label> 
+                    
             </div>     
         </div>
 
@@ -19,4 +25,3 @@ const ProductCategoryRow = () => {
 }
 
 
-export default ProductCategoryRow;

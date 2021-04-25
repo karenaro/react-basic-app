@@ -1,27 +1,29 @@
 import React from 'react';
 import './ProductTable.css';
-import ProductCategoryRow from '../Product-Category-Row/ProductCategoryRow';
-import ProductRow from '../Product-Row/ProductRow';
+import { Sporting } from '../Product-Category-Row/ProductCategoryRow';
+import { Electronics } from '../Product-Category-Row/ProductCategoryRow';
+import { Sport } from '../Product-Row/ProductRow';
+import { Phone } from '../Product-Row/ProductRow';
 
 
 const ProductTable = () => {
     return (
         <div className="Product-Table">
-            <label className="name" >Name</label>
-            <label className="price" >Price</label>   
+        <br></br>
+            <label className="name" >Name       </label>
+            <label className="priceT">  Price</label>   
             <div>
-                <ProductCategoryRow/>
+        <br></br>
+               
             </div>    
-            
+            <Sporting/>
+            <Sport/>
             <div>
-                <ProductRow/>
+                <Electronics/>
+                <Phone/>
             </div> 
         </div>
         
-        
-
-
-
     );
 }
 

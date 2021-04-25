@@ -8,6 +8,7 @@
     margin-right: auto;
 }
 
-label{
-    word-spacing: 10px;
+.name,
+.priceT{
+    font-weight: bold;
 }
