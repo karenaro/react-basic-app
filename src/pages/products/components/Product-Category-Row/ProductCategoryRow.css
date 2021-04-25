@@ -1,0 +1,10 @@
+.turquesa{
+        width: 95%;
+        min-height: 70%;
+        border:3px solid turquoise;
+        border-radius: 15px;
+        margin-top: 2px;
+        margin-left: auto;
+        margin-right: auto;
+    
+}
